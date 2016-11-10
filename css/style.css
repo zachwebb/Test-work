@@ -9,12 +9,18 @@ body {
 }
 
 .thumb {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     overflow: hidden;
+    padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 .thumb img {
 	width: 100%;
+}
+
+.thumb:hover {
+	opacity: .8;
 }
 
 footer {
